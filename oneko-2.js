@@ -20,7 +20,7 @@
   let idleAnimation = null;
   let idleAnimationFrame = 0;
 
-  const nekoSpeed = 15;
+  const nekoSpeed = 25;
   const spriteSets = {
     idle: [[-3, -3]],
     alert: [[-7, -3]],
@@ -87,8 +87,8 @@
   function init() {
     nekoEl.id = "oneko";
     nekoEl.ariaHidden = true;
-    nekoEl.style.width = "50px";
-    nekoEl.style.height = "50px";
+    nekoEl.style.width = "32px";
+    nekoEl.style.height = "32px";
     nekoEl.style.position = "fixed";
     nekoEl.style.pointerEvents = "none";
     nekoEl.style.imageRendering = "pixelated";
